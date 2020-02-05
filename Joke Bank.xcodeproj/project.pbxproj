@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FF45014723E6007A00CB2B37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45014623E6007A00CB2B37 /* AppDelegate.swift */; };
-		FF45014923E6007A00CB2B37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45014823E6007A00CB2B37 /* ViewController.swift */; };
 		FF45014C23E6007A00CB2B37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF45014A23E6007A00CB2B37 /* Main.storyboard */; };
 		FF45014E23E6007B00CB2B37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF45014D23E6007B00CB2B37 /* Assets.xcassets */; };
 		FF45015123E6007B00CB2B37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF45014F23E6007B00CB2B37 /* LaunchScreen.storyboard */; };
+		FF45015923E667DC00CB2B37 /* JokeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45015823E667DC00CB2B37 /* JokeTableViewController.swift */; };
+		FF45015B23E72ED900CB2B37 /* JokeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45015A23E72ED900CB2B37 /* JokeViewController.swift */; };
+		FF45015D23E7645900CB2B37 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45015C23E7645900CB2B37 /* Joke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF45014323E6007A00CB2B37 /* Joke Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joke Bank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF45014623E6007A00CB2B37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF45014823E6007A00CB2B37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF45014B23E6007A00CB2B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF45014D23E6007B00CB2B37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF45015023E6007B00CB2B37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF45015223E6007B00CB2B37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF45015823E667DC00CB2B37 /* JokeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeTableViewController.swift; sourceTree = "<group>"; };
+		FF45015A23E72ED900CB2B37 /* JokeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewController.swift; sourceTree = "<group>"; };
+		FF45015C23E7645900CB2B37 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				FF45014623E6007A00CB2B37 /* AppDelegate.swift */,
-				FF45014823E6007A00CB2B37 /* ViewController.swift */,
 				FF45014A23E6007A00CB2B37 /* Main.storyboard */,
+				FF45015C23E7645900CB2B37 /* Joke.swift */,
+				FF45015A23E72ED900CB2B37 /* JokeViewController.swift */,
+				FF45015823E667DC00CB2B37 /* JokeTableViewController.swift */,
 				FF45014D23E6007B00CB2B37 /* Assets.xcassets */,
 				FF45014F23E6007B00CB2B37 /* LaunchScreen.storyboard */,
 				FF45015223E6007B00CB2B37 /* Info.plist */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF45014923E6007A00CB2B37 /* ViewController.swift in Sources */,
+				FF45015923E667DC00CB2B37 /* JokeTableViewController.swift in Sources */,
 				FF45014723E6007A00CB2B37 /* AppDelegate.swift in Sources */,
+				FF45015D23E7645900CB2B37 /* Joke.swift in Sources */,
+				FF45015B23E72ED900CB2B37 /* JokeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
